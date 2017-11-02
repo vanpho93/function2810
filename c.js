@@ -33,25 +33,13 @@ function inSo(checkNumber) {
     }
 }
 
-inSo(function (n) {
-    return n % 2 === 0;
-});
+inSo(n => n % 2 === 0);
 
-inSo(function (n) {
-    return n % 2 === 1;
-});
+inSo(n => n % 2 === 1);
 
-inSo(function (n) {
-    return n % 3 === 1;
-});
+inSo(n => n % 3 === 1);
 
-inSo(function (n) {
-    return Math.sqrt(n) % 1 === 0;
-});
-
-
-
-
+inSo(n => Math.sqrt(n) % 1 === 0);
 
 // function inSo(soChia, soDu) { 
 //     for(let i = 0; i <= 100; i++) {
